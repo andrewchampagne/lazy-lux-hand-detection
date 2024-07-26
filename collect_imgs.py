@@ -17,7 +17,6 @@ for j in range(number_of_classes):
 
     print('Collecting data for class {}'.format(j))
 
-    done = False
     while True:
         ret, frame = cap.read()
         cv2.putText(frame, 'press "Q" to start:)', (100, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 255, 0), 3,

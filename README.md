@@ -25,5 +25,5 @@ Due to privacy concerns and the specific nature of the data used for training, t
 This project is licensed under the MIT License.
 
 ### Contact
-email: andrewchampagnejr@gmail.com
+email: andrewchampagnejr@gmail.com  
 repo link: https://github.com/andrewchampagne/lazy-lux-hand-detection

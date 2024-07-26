@@ -4,22 +4,11 @@ import numpy as np
 import pickle
 import keyboard
 import time
-import signal
 import os
 
 STATUS_FILE = "status.txt"
 FLAG_FILE = "stop_flag.txt"
 # Global termination flag
-
-
-# Function to handle termination signals
-def signal_handler(signum, frame):
-    global should_stop
-    should_stop = True
-
-# Register signal handlers
-signal.signal(signal.SIGINT, signal_handler)
-signal.signal(signal.SIGTERM, signal_handler)
 
 
 last_press_time = time.time()
